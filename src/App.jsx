@@ -4,6 +4,7 @@
 import './App.css'
 import Menu from "./components/menu"
 import Home from "./components/home"
+import CountDown from './components/countdown'
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -14,6 +15,7 @@ function App() {
         <Menu />
         <Home />
       </div>
+        <CountDown />
         
       
       {/* <div>

@@ -60,7 +60,7 @@
         flex-direction: column;
         justify-content: left;
         align-self: start;
-        margin-left: 30px;
+        /* margin-left: 30px; */
     }
 
     /* .container .capa {

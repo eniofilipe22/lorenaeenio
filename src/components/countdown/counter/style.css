@@ -1,0 +1,38 @@
+.contagem {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #A90065;
+  color: #fff;
+  padding: 0;
+  margin: 0;
+  border-radius: 10px;
+}
+
+.contagem .counter-number {
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.contagem .counter-text {
+  font-weight: 700;
+  font-size: 14px;
+}
+
+@media (max-width: 500px) {
+  .contagem {
+      width: 70px;
+      height: 70px;
+  }
+
+  .contagem .counter-number {
+    font-size: 24px;
+  }
+
+  .contagem .counter-text {
+    font-size: 12px;
+  }
+}
