@@ -7,7 +7,7 @@
   justify-content: center;
   background-color: #A90065;
   color: #fff;
-  padding: 0;
+  padding: 3px;
   margin: 0;
   border-radius: 10px;
 }
@@ -18,8 +18,9 @@
 }
 
 .contagem .counter-text {
-  font-weight: 700;
+  font-weight: 500;
   font-size: 14px;
+  text-transform: uppercase;
 }
 
 @media (max-width: 500px) {

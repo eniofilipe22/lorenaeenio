@@ -26,6 +26,23 @@
   }
 }
 
+.convite {
+  width: 80%;
+  margin: 0 auto;
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 40px 20px;
+  gap: 30px;
+}
+
+.convite .texto {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
 /* .logo {
   height: 6em;
   padding: 1.5em;
