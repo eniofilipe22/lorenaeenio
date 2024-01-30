@@ -18,14 +18,6 @@
   /* width: max-content; */
 }
 
-@media (max-width: 500px){
-  .inicio {
-    /* width: 100vw; */
-    background: url("./assets/flower2.png") bottom right no-repeat;
-    background-size: 50vw;
-  }
-}
-
 .convite {
   width: 80%;
   margin: 0 auto;
@@ -41,6 +33,24 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
+}
+
+.convite .casal {
+  border-radius: 10px;
+  width: 80%;
+  align-self: center;
+}
+
+@media (max-width: 500px){
+  .inicio {
+    /* width: 100vw; */
+    background: url("./assets/flower2.png") bottom right no-repeat;
+    background-size: 50vw;
+  }
+
+  .convite .casal {
+    width: 95%;
+  }
 }
 
 /* .logo {
