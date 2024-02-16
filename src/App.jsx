@@ -9,6 +9,7 @@ import Title from './components/common/title'
 import Text from './components/common/text'
 import Nos from './assets/Nos(4).png'
 import Igreja from './assets/igreja.png'
+import Rodape from './components/rodape'
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -40,6 +41,8 @@ function App() {
           <Text text={"Lorem ipsum dolor sit amet. Aut dignissimos dolorum id nihil repellat et optio iure? Est rerum voluptatem qui officiis dolore quo atque voluptas qui veritatis internos. Ut quam aspernatur et galisum animi nam explicabo repellendus?"}/>
           <img src={Igreja} alt="Igreja" className='casal' />
         </div>
+
+        <Rodape />
     </>
   )
 }

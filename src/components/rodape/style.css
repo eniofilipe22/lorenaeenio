@@ -1,0 +1,74 @@
+.rodape {
+    max-width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0;
+}
+
+.logo {
+    max-width: 50%;
+    margin-bottom: 40px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    align-items: center;
+    align-self: center;
+    text-align: center;
+}
+
+.botao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.buttons .botao .icon {
+    width: 80px;
+    height: 80px;
+    background-color: #F0E2EA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.buttons .botao .icon:hover{
+    background-color: #e9d9e2;
+}
+
+.buttons .botao .icon img{
+    /* width: 50px; */
+    height: 50px;
+    
+}
+
+.divisao {
+    width: 1px;
+    height: 40px;
+    background-color: #A90065;
+}
+
+@media (max-width: 500px) {
+    .logo {
+        max-width: 80%;
+    }
+
+    .buttons {
+        flex-direction: column;
+        width: fit-content;
+        gap: 30px
+    }
+
+    .divisao {
+        width: 40px;
+        height: 1px;
+    }
+}
