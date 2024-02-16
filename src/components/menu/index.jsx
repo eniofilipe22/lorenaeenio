@@ -2,7 +2,13 @@ import './style.css'
 
 const Menu = () => {
     return (
-        <nav className='menu'>
+        <nav className='header'>
+            <input type="checkbox" id="menu-hamburguer" />
+            <label htmlFor="menu-hamburguer">
+                <div className="menu">
+                    <span className="hamburguer"></span>
+                </div>
+            </label>
             <ul className='itens'>
                 <li><a href="#ocasal">O CASAL</a></li>
                 <li><a href="#cerimonia">CERIMÔNIA</a></li>
