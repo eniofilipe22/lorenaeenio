@@ -18,11 +18,38 @@
   /* width: max-content; */
 }
 
+.convite {
+  width: 80%;
+  margin: 0 auto;
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 40px 20px;
+  gap: 30px;
+}
+
+.convite .texto {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.convite .casal {
+  border-radius: 10px;
+  width: 80%;
+  align-self: center;
+}
+
 @media (max-width: 500px){
   .inicio {
     /* width: 100vw; */
     background: url("./assets/flower2.png") bottom right no-repeat;
     background-size: 50vw;
+  }
+
+  .convite .casal {
+    width: 95%;
   }
 }
 

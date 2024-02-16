@@ -14,6 +14,15 @@
   -webkit-text-size-adjust: 100%; */
 }
 
+div, p, h1, h2, h3, h4, h5 {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  overflow: unset;
+}
+
 a {
   font-weight: 500;
   /* color: #646cff; */
