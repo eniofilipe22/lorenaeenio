@@ -27,14 +27,14 @@ function App() {
             <Text strong={"Aguardamos vocês no nosso grande dia!"} />
           </div>
         </div>
-        <div className='convite'>
-          <Title title={"O casal"}/>
+        <div className='convite' id='ocasal'>
+          <Title title={"O casal"} />
           <img src={Nos} alt="Nos" className='casal'/>
           <Text text={"Lorem ipsum dolor sit amet. Aut dignissimos dolorum id nihil repellat et optio iure? Est rerum voluptatem qui officiis dolore quo atque voluptas qui veritatis internos. Ut quam aspernatur et galisum animi nam explicabo repellendus?"}/>
           <Text text={"Et iure delectus sed aperiam voluptatum qui sequi atque et deleniti consequatur quo galisum pariatur. Quo velit iusto non tempora voluptas qui nostrum sunt non repudiandae ratione qui fuga autem. Id dolore quibusdam aut galisum illum ut maxime corporis sed nisi numquam. Est repudiandae ullam ut dolorem corporis sit molestiae nisi ut quaerat ipsa?"}/>
           <Text text={"Aut accusamus esse est quam cupiditate et dicta aspernatur ea voluptates voluptatum eum rerum labore. Sed quasi autem est perferendis exercitationem aut odio eius qui unde maxime et suscipit voluptatum non obcaecati dolorem."} />
         </div>
-        <div className='convite'>
+        <div className='convite' id='cerimonia'>
           <Title title={"Cerimônia"}/>
           <Text text={"Lorem ipsum dolor sit amet. Aut dignissimos dolorum id nihil repellat et optio iure? Est rerum voluptatem qui officiis dolore quo atque voluptas qui veritatis internos. Ut quam aspernatur et galisum animi nam explicabo repellendus?"}/>
           <img src={Igreja} alt="Igreja" className='casal' />
