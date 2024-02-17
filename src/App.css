@@ -28,6 +28,7 @@
 
 @media (max-width: 700px){
   .inicio {
+    /* width: 100vw; */
     background: url("./assets/flower2.png") bottom right no-repeat;
     background-size: 50vw;
   }
