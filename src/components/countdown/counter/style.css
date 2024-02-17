@@ -23,7 +23,7 @@
   text-transform: uppercase;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 750px) {
   .contagem {
       width: 70px;
       height: 70px;
