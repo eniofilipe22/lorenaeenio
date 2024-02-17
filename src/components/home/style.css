@@ -60,6 +60,7 @@
         flex-direction: column;
         justify-content: left;
         align-self: start;
+        width: max-content;
     }
 }
 
