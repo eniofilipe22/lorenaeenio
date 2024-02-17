@@ -9,7 +9,7 @@
 
 .capa {
     grid-area: capa;
-    max-height: 100vh;
+    max-height: 100%;
 }
 
 .date {
@@ -50,7 +50,7 @@
         flex-direction: column;
         justify-content: center;
         /* max-width: 100%; */
-        margin: 0 auto;
+        /* margin: 0 auto; */
         padding: 0;
     }
 
