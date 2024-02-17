@@ -1,21 +1,6 @@
-#root {
-  /* max-width: 1280px; */
-  /* margin: 0 auto; */
-  /* padding: 2rem; */
-  /* display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  align-content: center; */
-}
-
 .inicio {
-  /* width: 100vw; */
-  /* width: 100vw; */
   background: url("./assets/flower1.png") top left no-repeat, url("./assets/flower2.png") bottom right no-repeat;
   background-size: 20vw;
-  
-  /* width: max-content; */
 }
 
 .convite {
@@ -43,7 +28,6 @@
 
 @media (max-width: 700px){
   .inicio {
-    /* width: 100vw; */
     background: url("./assets/flower2.png") bottom right no-repeat;
     background-size: 50vw;
   }

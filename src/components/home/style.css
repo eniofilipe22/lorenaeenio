@@ -1,9 +1,9 @@
 .container {
     display: grid;
     grid-template-areas: "capa date";
-    /* grid-template-columns: 1fr 0.5fr; */
     align-items: center;
     width: fit-content;
+    max-width: 100vw;
     margin: 0 auto;
 }
 
@@ -44,13 +44,13 @@
     padding: 0 10px;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 1025px) {
     .container {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        /* max-width: 100vw; */
-        margin: 0;
+        max-width: 100%;
+        margin: 0 auto;
         padding: 0;
         /* width: fit-content; */
     }
@@ -64,21 +64,9 @@
     }
 
     .container .capa {
-        max-width: 100%;
+        display: flex;
+        align-self: center;
+        text-align: center;
+        width: 100%;
     }
-
-    /* .container .capa {
-        max-width: 100vw;
-        margin: 0;
-        padding: 0;
-        width: fit-content;
-    }
-
-    .container .date {
-        max-width: 100vw;
-        margin: 0;
-        padding: 0;
-        width: fit-content;
-    } */
-
 }
