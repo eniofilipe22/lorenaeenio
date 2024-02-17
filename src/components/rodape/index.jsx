@@ -1,4 +1,3 @@
-import React from 'react'
 import './style.css'
 import Logo from '../../assets/LogoH.png'
 import Button from '../common/button'

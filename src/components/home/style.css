@@ -9,6 +9,7 @@
 
 .capa {
     grid-area: capa;
+    max-width: 100%;
     max-height: 100vh;
 }
 
@@ -59,10 +60,6 @@
         flex-direction: column;
         justify-content: left;
         align-self: start;
-    }
-
-    .container .capa {
-        max-width: 100%;
     }
 }
 
