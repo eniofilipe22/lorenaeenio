@@ -15,7 +15,7 @@ const Menu = ({
             <ul className='itens'>
                 <li onClick={onClickOCasal}><a href="#ocasal">O CASAL</a></li>
                 <li><a href="#cerimonia">CERIMÔNIA</a></li>
-                <li onClick={onClickPresents}><a href="#lista-presentes">LISTA DE PRESENTES</a></li>
+                <li onClick={onClickPresents}><a>LISTA DE PRESENTES</a></li>
                 <li><a href="#confirme-presença">CONFIRME SUA PRESENÇA</a></li>
                 <li><a href="#recados">RECADOS</a></li>
             </ul>

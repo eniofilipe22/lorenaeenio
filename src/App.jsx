@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useContext, useState } from 'react'
 import './App.css'
 import Menu from "./components/menu"
 import Home from "./components/home"
@@ -10,6 +10,8 @@ import Igreja from './assets/igreja.png'
 import Rodape from './components/rodape'
 import Presents from './components/presents'
 import { CartProvider } from './context/cartContext'
+import { ConvidadoContext, ConvidadoProvider } from './context/convidado'
+import ConvidadoQuestion from './components/convidado'
 
 const pages = {
   initial: "initial",
@@ -19,6 +21,10 @@ const pages = {
 function App() {
   const [count, setCount] = useState(0)
   const [page, setPage] = useState(pages.initial)
+
+  const { convidado } = useContext(ConvidadoContext);
+
+  const convidadoName = convidado ?? "Convidado";
 
   const goToPresents = () => {
     setPage(pages.presents);
@@ -30,19 +36,20 @@ function App() {
 
   return (
     <div className='content-wrapper'>
-      <CartProvider>
+      
         <div className='inicio'>
           <Menu
             onClickPresents={goToPresents}
             onClickOCasal={goToInitial}
           />
         </div>
+        <ConvidadoQuestion />
         {
           page === pages.presents ? <Presents /> : (<>
             <Home />
             <CountDown />
             <div className='convite'>
-              <Title title={"Nome do convidado"} />
+              <Title title={convidadoName} />
               <div className='texto'>
                 <Text text={"Criamos esse site para compartilhar com vocês os detalhes da organização do nosso casamento. Estamos muito felizes e contamos com a presença de todos no nosso grande dia!"} />
                 <Text text={"É importante confirmar sua presença. Para isto contamos com sua ajuda clicando no menu “Confirme sua Presença” e preenchendo os dados necessários. Para nos presentear, escolha qualquer item da Lista de Casamento, seja um item de algum dos sites, lojas físicas, ou então vocês podem utilizar a opção de cotas. Fiquem à vontade!"} />
@@ -66,7 +73,6 @@ function App() {
           </>
           )
         }
-      </CartProvider>
     </div>
   )
 }
