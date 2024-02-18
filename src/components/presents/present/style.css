@@ -1,0 +1,23 @@
+.present-wrapper {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 200px;
+    height: 300px;
+    align-items: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.present-image {
+    height: 100px;
+}
+
+.present-title {
+    margin: 10px;
+    max-lines: 2;
+
+}
+
+.present-value {}
