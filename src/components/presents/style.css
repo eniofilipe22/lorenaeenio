@@ -1,0 +1,18 @@
+.presents-page {
+    margin-top: 90px;
+}
+
+.presents-content {
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+@media screen and (max-width: 900px) {
+    .presents-page {
+        margin-top: 20px;
+    }
+}

@@ -1,5 +1,5 @@
 import './style.css'
-import capa from "../../assets/capa.jpg"
+import capa from "../../assets/capa.webp"
 
 const Home = () => {
     return (

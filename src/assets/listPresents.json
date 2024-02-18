@@ -1,0 +1,202 @@
+[
+    {
+        "Presente": "Geladeira",
+        "Valor": 3500,
+        "Link imagem": "geladeira.jpg"
+    },
+    {
+        "Presente": "Sanduicheira (Preta ou Prata/Cinza)",
+        "Valor": 100,
+        "Link imagem": "sanduicheira.jpg"
+    },
+    {
+        "Presente": "Batedeira",
+        "Valor": 250,
+        "Link imagem": "batedeira.jpg"
+    },
+    {
+        "Presente": "Jogo de facas",
+        "Valor": 90,
+        "Link imagem": "jogodefacas.jpg"
+    },
+    {
+        "Presente": "Faqueiro",
+        "Valor": 200,
+        "Link imagem": "faqueiro.jpg"
+    },
+    {
+        "Presente": "Jogo de Panelas",
+        "Valor": 350,
+        "Link imagem": "jogo_de_panela.jpg"
+    },
+    {
+        "Presente": "Panela de Pressão",
+        "Valor": 200,
+        "Link imagem": "panela_de_pressao.jpg"
+    },
+    {
+        "Presente": "Aparelho de Jantar",
+        "Valor": "?",
+        "Link imagem": "?"
+    },
+    {
+        "Presente": "Organizador de Talheres",
+        "Valor": 80,
+        "Link imagem": "organizador_talheres.jpg"
+    },
+    {
+        "Presente": "Processador/Liquidificador",
+        "Valor": 350,
+        "Link imagem": "processador.jpg"
+    },
+    {
+        "Presente": "Mesa",
+        "Valor": 1000,
+        "Link imagem": "mesa_de_jantar.jpg"
+    },
+    {
+        "Presente": "Jogo de Copos Grandes",
+        "Valor": 70,
+        "Link imagem": "jogo_de_copos_grande.webp"
+    },
+    {
+        "Presente": "Jogo de Pratos",
+        "Valor": 250,
+        "Link imagem": "jogo_de_pratos.jpg"
+    },
+    {
+        "Presente": "Garrafa de Café",
+        "Valor": 60,
+        "Link imagem": "garrafa_de_cafe.jpg"
+    },
+    {
+        "Presente": "Cafeteira",
+        "Valor": 200,
+        "Link imagem": "cafeteira.jpg"
+    },
+    {
+        "Presente": "Escorredor de Louça",
+        "Valor": 200,
+        "Link imagem": "escorredor_de_louca.jpg"
+    },
+    {
+        "Presente": "Tábua de corte (Vidro Temperado)",
+        "Valor": 50,
+        "Link imagem": "tabua_de_corte.jpg"
+    },
+    {
+        "Presente": "Jogo de Potes de Mantimentos (Arroz, Feijão, Farinha, Açúcar)",
+        "Valor": 70,
+        "Link imagem": "jogo_potes_mantimentos.jpg"
+    },
+    {
+        "Presente": "Potes/Vasilhas plásticas diversas",
+        "Valor": "?",
+        "Link imagem": ""
+    },
+    {
+        "Presente": "Jogo de Sobremesa",
+        "Valor": "?",
+        "Link imagem": ""
+    },
+    {
+        "Presente": "ralador,",
+        "Valor": 40,
+        "Link imagem": "ralador.jpg"
+    },
+    {
+        "Presente": "peneira,",
+        "Valor": 25,
+        "Link imagem": "peneira.jpg"
+    },
+    {
+        "Presente": "jarra,",
+        "Valor": 35,
+        "Link imagem": "jarra.webp"
+    },
+    {
+        "Presente": "kit pano de prato",
+        "Valor": 40,
+        "Link imagem": "kit_panos_de_prato.webp"
+    },
+    {
+        "Presente": "kit utensílios de cozinha silicone",
+        "Valor": 80,
+        "Link imagem": "kit_utensilhos_cozinha.jpg"
+    },
+    {
+        "Presente": "Travesseiro antialérgico (4)",
+        "Valor": 200,
+        "Link imagem": "travesseiros.png"
+    },
+    {
+        "Presente": "Sofá",
+        "Valor": 1200,
+        "Link imagem": "sofa.jpg"
+    },
+    {
+        "Presente": "Televisão",
+        "Valor": 2200,
+        "Link imagem": "tv.jpg"
+    },
+    {
+        "Presente": "Rack Sala",
+        "Valor": 450,
+        "Link imagem": "rack_sala.jpg"
+    },
+    {
+        "Presente": "Jogo de Cama Casal",
+        "Valor": 200,
+        "Link imagem": "jogo_de_cama.jpg"
+    },
+    {
+        "Presente": "Jogo de Toalhas",
+        "Valor": 100,
+        "Link imagem": "jogo_de_toalhas.jpg"
+    },
+    {
+        "Presente": "Ferro de passar roupa",
+        "Valor": 140,
+        "Link imagem": "ferro_passar_roupa.jpg"
+    },
+    {
+        "Presente": "Utensílios de banheiro (Kit Lavabo)",
+        "Valor": 130,
+        "Link imagem": "kit_lavabo.jpg"
+    },
+    {
+        "Presente": "Tapete sala antialérgico",
+        "Valor": 130,
+        "Link imagem": "tapete_sala.jpg"
+    },
+    {
+        "Presente": "Kit Tapete banheiro",
+        "Valor": 80,
+        "Link imagem": "tapete_banheiro.png"
+    },
+    {
+        "Presente": "kit tapete cozinha",
+        "Valor": 100,
+        "Link imagem": "tapete_cozinha.jpg"
+    },
+    {
+        "Presente": "Permissão pra perguntar sobre filhos 1 vez",
+        "Valor": 100,
+        "Link imagem": "filhos.jpg"
+    },
+    {
+        "Presente": "Permissão pra perguntar sobre filhos 5 vezes",
+        "Valor": 1000,
+        "Link imagem": "filhos.jpg"
+    },
+    {
+        "Presente": "Permissão pra perguntar sobre filhos quantas vezes quiser",
+        "Valor": 10000,
+        "Link imagem": "filhos.jpg"
+    },
+    {
+        "Presente": "Permissão pra perguntar sobre formatura",
+        "Valor": 20000,
+        "Link imagem": "formatura.webp"
+    }
+]
