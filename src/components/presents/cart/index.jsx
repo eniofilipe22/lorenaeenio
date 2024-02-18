@@ -15,7 +15,10 @@ const Cart = ({
     onExit
 }) => {
 
-    const { cart } = useContext(CartContext)
+    const { cart } = useContext(CartContext);
+    
+
+    
 
     const total = Object.values(cart).reduce((prev, curr)=>{
         return prev + (curr.Valor * curr.quantidade)

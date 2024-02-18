@@ -1,0 +1,24 @@
+.modal-wrapper-nome-convidado{ 
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(255, 192, 203, 0.377);
+    padding: 5%;
+}
+.modal-content-nome-convidado{
+    box-sizing: border-box;
+    background-color: white;
+    width: 90%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+ }
+
+ .modal-content-nome-convidado input {
+    height: 30px;
+    font-size: 24px;
+ }
