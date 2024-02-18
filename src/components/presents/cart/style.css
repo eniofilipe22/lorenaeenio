@@ -1,0 +1,94 @@
+.cart-wrapper {
+    width: 100vw;
+    height: 100vh;
+    z-index: 1000;
+    position: fixed;
+    top:0;
+    left: 0;
+    
+}
+
+.cart-content {
+    width: 100%;
+    background-color: white;
+    height: 100%;
+    
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    overflow: auto;
+}
+
+.list-cesta {
+    border: 1px solid #ccc;
+    min-height: 40vh;
+    max-height: 40vh;
+    overflow-y: scroll;
+    
+    overflow-x: hidden;
+    gap: 5px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.item-cesta {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+}
+
+.item-name {
+    width: 60%;
+    word-break: break-all;
+}
+.item-qtd {
+    width: 10%;
+    text-align: end;
+}
+.item-valor {
+    width: 30%;
+    text-align: end;
+}
+
+.greyGridTable{
+    width: 90%;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+.greyGridTable tbody{
+  display:block;
+  width: 100%;
+  overflow: auto;
+  height: 40vh;
+}
+
+.greyGridTable thead tr {
+   display: block;
+}
+
+.greyGridTable thead {
+  background: black;
+  color:#fff;
+}
+
+.greyGridTable tfoot tr {
+    display: block;
+ }
+ 
+ .greyGridTable tfoot {
+   background: black;
+   color:#fff;
+ }
+
+.greyGridTable th, .greyGridTable td {
+  padding: 5px;
+  text-align: left;
+  width: 400px;
+}
