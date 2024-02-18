@@ -9,12 +9,13 @@ export const ConvidadoProvider = ({ children }) => {
     const [convidado, setConvidado] = useState(null);
 
     const pegaConvidadoDoPathName = () => {
-        let possibleConvidadoName = location.pathname.replace('/', '');
-        possibleConvidadoName = possibleConvidadoName.replaceAll('_',' ');
-        if(possibleConvidadoName.charAt(0)==="#"){
-            return;
-        }
 
+        const searchParams = new URLSearchParams(location.search);
+
+        let possibleConvidadoName = searchParams.get("name")
+        if(!possibleConvidadoName) return null;
+        
+        possibleConvidadoName = possibleConvidadoName.replaceAll('_',' ');
         setConvidado(possibleConvidadoName);
     }   
 
