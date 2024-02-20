@@ -13,6 +13,7 @@ import { CartProvider } from './context/cartContext'
 import { ConvidadoContext, ConvidadoProvider } from './context/convidado'
 import ConvidadoQuestion from './components/convidado'
 import Comentarios from './components/comentarios'
+import Confirmacao from './components/confirmacao'
 
 const pages = {
   initial: "initial",
@@ -68,6 +69,9 @@ function App() {
               <Title title={"Cerimônia"} />
               <Text text={"Lorem ipsum dolor sit amet. Aut dignissimos dolorum id nihil repellat et optio iure? Est rerum voluptatem qui officiis dolore quo atque voluptas qui veritatis internos. Ut quam aspernatur et galisum animi nam explicabo repellendus?"} />
               <img src={Igreja} alt="Igreja" className='casal' />
+            </div>
+            <div className='convite' id='confirmacao'>
+              <Confirmacao />
             </div>
             <div className='convite' id='comentarios'>
               <Comentarios />
