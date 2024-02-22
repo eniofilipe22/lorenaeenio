@@ -27,7 +27,6 @@ const Presents = () => {
                     ))
                 }
             </div>
-            <Rodape />
         </div>
     );
 }
