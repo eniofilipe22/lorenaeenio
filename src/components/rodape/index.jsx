@@ -3,6 +3,7 @@ import Logo from '../../assets/LogoH.png'
 import Button from '../common/button'
 import Confirmacao from '../../assets/confirmacao.png'
 import Presente from '../../assets/presente.png'
+import { Link } from 'react-router-dom'
 
 const Rodape = ({onClickPresents, onClickOCasal}) => {
     return (
@@ -15,7 +16,7 @@ const Rodape = ({onClickPresents, onClickOCasal}) => {
                 </div>
                 <div className='botao'>
                     <div className='icon'><img src={Presente} alt="lisat de presentes" /></div>
-                    <Button onClick={onClickPresents}><a href="#presentes">Lista de presentes</a></Button>
+                    <Button onClick={onClickPresents}><Link to={"/presentes"}>Lista de presentes</Link></Button>
                 </div>               
             </div>
         </div>
