@@ -27,6 +27,7 @@
   .contagem {
       width: 70px;
       height: 70px;
+      padding: 1px;
   }
 
   .contagem .counter-number {

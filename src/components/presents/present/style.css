@@ -1,13 +1,17 @@
 .present-wrapper {
     display: flex;
     flex-direction: column;
-    border: 1px solid black;
+    /* border: 0.6px solid #B4C5D6; */
     border-radius: 10px;
-    width: 200px;
-    height: 300px;
+    width: 260px;
+    height: 320px;
     align-items: center;
+    justify-content: center;
     padding: 10px;
     box-sizing: border-box;
+    background-color: #fff;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.10);
+    text-align: center;
 }
 
 .present-image {
@@ -20,4 +24,12 @@
 
 }
 
-.present-value {}
+.present-value {
+    margin-bottom: 20px;
+}
+
+.present-choose {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}

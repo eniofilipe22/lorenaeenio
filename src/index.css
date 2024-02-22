@@ -27,6 +27,7 @@ a {
   font-weight: 500;
   /* color: #646cff; */
   color: #404951;
+  cursor: pointer;
   text-decoration: none;
 }
 

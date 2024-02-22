@@ -8,8 +8,11 @@
     font-weight: 500;
     border: none;
     transition: 0.3s;
+    width: fit-content;
 }
 
-.button:hover{
+.button:hover,
+.button:focus{
     background-color: #8F0056;
+    outline: none;
 }

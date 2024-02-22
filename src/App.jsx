@@ -48,7 +48,9 @@ function App() {
         <ConvidadoQuestion />
         {
           page === pages.presents ? <Presents /> : (<>
+          <div className='inicio' id='inicio'>
             <Home />
+          </div>
             <CountDown />
             <div className='convite'>
               <Title title={convidadoName} />
@@ -70,14 +72,14 @@ function App() {
               <Text text={"Lorem ipsum dolor sit amet. Aut dignissimos dolorum id nihil repellat et optio iure? Est rerum voluptatem qui officiis dolore quo atque voluptas qui veritatis internos. Ut quam aspernatur et galisum animi nam explicabo repellendus?"} />
               <img src={Igreja} alt="Igreja" className='casal' />
             </div>
-            <div className='convite' id='confirmacao'>
+            <div id='confirmacao'>
               <Confirmacao />
             </div>
-            <div className='convite' id='comentarios'>
+            <div id='recados'>
               <Comentarios />
             </div>
 
-            <Rodape />
+            <Rodape onClickPresents={goToPresents} onClickOCasal={goToInitial}/>
           </>
           )
         }

@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import "./style.css"
+import Title from "../common/title";
+import Button from "../common/button";
 
 const Confirmacao = () => {
 
@@ -41,32 +43,40 @@ const Confirmacao = () => {
     }
 
     return (
-        <div>
+        <div className="confirmacao">
+            <Title title="Confirme sua presença" />
+            <div className="form-confirmacao">
             <div className="line-form">
-                <span className="label-form">Nome Completo</span>
-                <input onInput={(e) => changeFormData("nome", e.target.value)} value={formData.nome} />
+                <label htmlFor="nome" className="label-form">Nome Completo</label>
+                <input className="input-confirmacao" id="nome" onInput={(e) => changeFormData("nome", e.target.value)} value={formData.nome} required/>
             </div>
             <div className="line-form">
                 <span className="label-form">Você irá ao evento?</span>
-                <input onInput={(e) => changeFormData("confirm", e.target.value)} />
+                <div className="input-confirmacao radio" >
+                    <input id="sim" type="radio" name="boolean" onInput={(e) => changeFormData("confirm", e.target.value)} checked/>
+                    <label htmlFor="sim">Sim</label>
+                    <input id="nao" type="radio" name="boolean" onInput={(e) => changeFormData("confirm", e.target.value)}></input>
+                    <label htmlFor="nao">Não</label>
+                </div>
             </div>
             <div className="line-form">
-                <span className="label-form">Quantidade de adultos incluindo você</span>
-                <input onInput={(e) => changeFormData("qtdAdulto", e.target.value)} type="number" value={formData.qtdAdulto} />
+                <label htmlFor="adultos" className="label-form">Quantidade de adultos<br></br>incluindo você</label>
+                <input className="input-confirmacao qtd" id="adultos" onInput={(e) => changeFormData("qtdAdulto", e.target.value)} type="number" value={formData.qtdAdulto} />
             </div>
             <div className="line-form">
-                <span className="label-form">Quantidade de crianças</span>
-                <input onInput={(e) => changeFormData("qtdCriancas", e.target.value)} type="number" value={formData.qtdCriancas} />
+                <label htmlFor="crianca" className="label-form">Quantidade de crianças</label>
+                <input className="input-confirmacao qtd" id="crianca" onInput={(e) => changeFormData("qtdCriancas", e.target.value)} type="number" value={formData.qtdCriancas} />
             </div>
             <div className="line-form">
-                <span className="label-form">Telefone para contato</span>
-                <input onInput={(e) => changeFormData("telefone", e.target.value)} value={formData.telefone} />
+                <label htmlFor="contato" className="label-form">Telefone para contato</label>
+                <input className="input-confirmacao" id="contato" onInput={(e) => changeFormData("telefone", e.target.value)} value={formData.telefone} />
             </div>
             <div className="line-form">
-                <span className="label-form">Observações</span>
-                <input onInput={(e) => changeFormData("observacao", e.target.value)} value={formData.observacao} />
+                <label htmlFor="observacao" className="label-form">Observações</label>
+                <textarea className="input-confirmacao" id="observacao" onInput={(e) => changeFormData("observacao", e.target.value)} value={formData.observacao} />
             </div>
-            <button onClick={enviaConfirmacao}>Confirmar presença</button>
+            <Button onClick={enviaConfirmacao} children={"Confirmar presença"}/>
+            </div>
         </div>)
 }
 

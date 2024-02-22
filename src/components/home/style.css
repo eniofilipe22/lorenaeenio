@@ -2,7 +2,7 @@
     display: grid;
     grid-template-areas: "capa date";
     /* grid-template-columns: 1fr 0.5fr; */
-    align-items: center;
+    align-items: end;
     width: fit-content;
     margin: 0 auto;
 }
