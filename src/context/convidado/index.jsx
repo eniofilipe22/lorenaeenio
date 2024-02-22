@@ -8,15 +8,24 @@ export const ConvidadoContext = createContext({
 export const ConvidadoProvider = ({ children }) => {
     const [convidado, setConvidado] = useState(null);
 
+    const tentaResgatarDoLocal = () => {
+        const possibleConvidadoName = localStorage.getItem("convidado");
+        if(!possibleConvidadoName) return null;
+
+        setConvidado(possibleConvidadoName);
+        return null;
+    }
+
     const pegaConvidadoDoPathName = () => {
 
         const searchParams = new URLSearchParams(location.search);
 
         let possibleConvidadoName = searchParams.get("name")
-        if(!possibleConvidadoName) return null;
+        if(!possibleConvidadoName) return tentaResgatarDoLocal();
         
         possibleConvidadoName = possibleConvidadoName.replaceAll('_',' ');
         setConvidado(possibleConvidadoName);
+        localStorage.setItem('convidado', possibleConvidadoName);
     }   
 
     useEffect(()=>{
@@ -26,6 +35,7 @@ export const ConvidadoProvider = ({ children }) => {
     const updateConvidado = (name) => {
         
         setConvidado(name);
+        localStorage.setItem('convidado', name);
     };
 
     return (<ConvidadoContext.Provider value={{ convidado, updateConvidado }}>
