@@ -57,6 +57,11 @@ const Cart = ({
             <p>
                 Textinho para lista de presentes orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
             </p>
+            { total <= 0 ? (
+            <>
+                Textinho falando sobre a cesta vazia
+            </>
+            ) : (<>
             <div className="list-cesta">
                 {
                     Object.values(cart).map((value) => (
@@ -88,6 +93,8 @@ const Cart = ({
             <p className="agradecimento">
                 Textinho de agradecimento orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
             </p>
+            </>
+            )}
         </div>
     </div >);
 };

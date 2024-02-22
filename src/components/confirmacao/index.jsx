@@ -16,6 +16,7 @@ const Confirmacao = () => {
 
 
     const changeFormData = (item, value) => {
+        console.log(value);
         setFormData((prevState) => ({ ...prevState, [item]: value }))
     }
 
@@ -53,9 +54,9 @@ const Confirmacao = () => {
             <div className="line-form">
                 <span className="label-form">Você irá ao evento?</span>
                 <div className="input-confirmacao radio" >
-                    <input id="sim" type="radio" name="boolean" onInput={(e) => changeFormData("confirm", e.target.value)} checked/>
+                    <input id="sim" type="radio" name="boolean" onInput={(e) => changeFormData("confirm", "Sim")} />
                     <label htmlFor="sim">Sim</label>
-                    <input id="nao" type="radio" name="boolean" onInput={(e) => changeFormData("confirm", e.target.value)}></input>
+                    <input id="nao" type="radio" name="boolean" onInput={(e) => changeFormData("confirm", "Nao")}></input>
                     <label htmlFor="nao">Não</label>
                 </div>
             </div>
