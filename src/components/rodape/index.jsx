@@ -12,11 +12,11 @@ const Rodape = ({onClickPresents, onClickOCasal}) => {
             <div className='buttons'>
                 <div className='botao'>
                     <div className='icon'><img src={Confirmacao} alt="confirmacao" /></div>
-                    <Button onClick={onClickOCasal}><a href='#confirmacao'>Confirmar presença</a></Button>
+                    <Button onClick={onClickOCasal}><Link to='/#confirmacao'>Confirmar presença</Link></Button>
                 </div>
                 <div className='botao'>
                     <div className='icon'><img src={Presente} alt="lisat de presentes" /></div>
-                    <Button onClick={onClickPresents}><Link to={"/presentes"}>Lista de presentes</Link></Button>
+                    <Button onClick={onClickPresents}><Link to={"/presentes#presentes"}>Lista de presentes</Link></Button>
                 </div>               
             </div>
         </div>
