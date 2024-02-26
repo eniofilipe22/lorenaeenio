@@ -16,6 +16,7 @@ import Comentarios from './components/comentarios'
 import Confirmacao from './components/confirmacao'
 import Content from './components/content'
 import { Outlet } from 'react-router-dom'
+import Footer from './components/footer'
 
 const pages = {
   initial: "initial",
@@ -51,6 +52,7 @@ function App() {
         <ConvidadoQuestion />
         <Outlet />
         <Rodape />
+        <Footer />
     </div>
   )
 }

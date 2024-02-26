@@ -2,201 +2,258 @@
     {
         "Presente": "Geladeira",
         "Valor": 3500,
-        "Link imagem": "geladeira.jpg"
+        "Link imagem": "geladeira.jpg",
+        "Desbloqueado": false
     },
     {
         "Presente": "Sanduicheira (Preta ou Prata/Cinza)",
         "Valor": 100,
-        "Link imagem": "sanduicheira.jpg"
+        "Link imagem": "sanduicheira.jpg",
+        "Desbloqueado": false
     },
+    
     {
+        "Presente": "Air fryer",
+        "Valor": 400,
+        "Link imagem": "fritadeira.webp",
+        "Desbloqueado": true
+    },{
         "Presente": "Batedeira",
         "Valor": 250,
-        "Link imagem": "batedeira.jpg"
+        "Link imagem": "batedeira.jpg",
+        "Desbloqueado": false
+    },{
+        "Presente": "Fogão 5 bocas",
+        "Valor": 1250,
+        "Link imagem": "fogao.jpg",
+        "Desbloqueado": true
+    },
+    {
+        "Presente": "Microondas",
+        "Valor": 600,
+        "Link imagem": "microondas.jpg",
+        "Desbloqueado": true
     },
     {
         "Presente": "Jogo de facas",
         "Valor": 90,
-        "Link imagem": "jogodefacas.jpg"
+        "Link imagem": "jogodefacas.jpg",
+        "Desbloqueado": false
     },
     {
         "Presente": "Faqueiro",
         "Valor": 200,
-        "Link imagem": "faqueiro.jpg"
+        "Link imagem": "faqueiro.jpg",
+        "Desbloqueado": false
     },
     {
         "Presente": "Jogo de Panelas",
         "Valor": 350,
-        "Link imagem": "jogo_de_panela.jpg"
+        "Link imagem": "jogo_de_panela.jpg",
+        "Desbloqueado": false
     },
     {
         "Presente": "Panela de Pressão",
         "Valor": 200,
-        "Link imagem": "panela_de_pressao.jpg"
+        "Link imagem": "panela_de_pressao.jpg",
+        "Desbloqueado": false
     },
     {
         "Presente": "Aparelho de Jantar",
         "Valor": "?",
-        "Link imagem": "?"
+        "Link imagem": "?",
+        "Desbloqueado": false
     },
     {
         "Presente": "Organizador de Talheres",
         "Valor": 80,
-        "Link imagem": "organizador_talheres.jpg"
+        "Link imagem": "organizador_talheres.jpg",
+        "Desbloqueado": false
     },
     {
         "Presente": "Processador/Liquidificador",
         "Valor": 350,
-        "Link imagem": "processador.jpg"
+        "Link imagem": "processador.jpg",
+        "Desbloqueado": false
     },
     {
         "Presente": "Mesa",
         "Valor": 1000,
-        "Link imagem": "mesa_de_jantar.jpg"
+        "Link imagem": "mesa_de_jantar.jpg",
+        "Desbloqueado": false
     },
     {
         "Presente": "Jogo de Copos Grandes",
         "Valor": 70,
-        "Link imagem": "jogo_de_copos_grande.webp"
+        "Link imagem": "jogo_de_copos_grande.webp",
+        "Desbloqueado": false
     },
     {
         "Presente": "Jogo de Pratos",
         "Valor": 250,
-        "Link imagem": "jogo_de_pratos.jpg"
+        "Link imagem": "jogo_de_pratos.jpg",
+        "Desbloqueado": false
     },
     {
         "Presente": "Garrafa de Café",
         "Valor": 60,
-        "Link imagem": "garrafa_de_cafe.jpg"
+        "Link imagem": "garrafa_de_cafe.jpg",
+        "Desbloqueado": false
     },
     {
         "Presente": "Cafeteira",
         "Valor": 200,
-        "Link imagem": "cafeteira.jpg"
+        "Link imagem": "cafeteira.jpg",
+        "Desbloqueado": false
     },
     {
         "Presente": "Escorredor de Louça",
         "Valor": 200,
-        "Link imagem": "escorredor_de_louca.jpg"
+        "Link imagem": "escorredor_de_louca.jpg",
+        "Desbloqueado": false
     },
     {
         "Presente": "Tábua de corte (Vidro Temperado)",
         "Valor": 50,
-        "Link imagem": "tabua_de_corte.jpg"
+        "Link imagem": "tabua_de_corte.jpg",
+        "Desbloqueado": false
     },
     {
         "Presente": "Jogo de Potes de Mantimentos (Arroz, Feijão, Farinha, Açúcar)",
         "Valor": 70,
-        "Link imagem": "jogo_potes_mantimentos.jpg"
+        "Link imagem": "jogo_potes_mantimentos.jpg",
+        "Desbloqueado": false
     },
     {
         "Presente": "Potes/Vasilhas plásticas diversas",
         "Valor": "?",
-        "Link imagem": ""
+        "Link imagem": "",
+        "Desbloqueado": false
     },
     {
         "Presente": "Jogo de Sobremesa",
         "Valor": "?",
-        "Link imagem": ""
+        "Link imagem": "",
+        "Desbloqueado": false
     },
     {
         "Presente": "ralador,",
         "Valor": 40,
-        "Link imagem": "ralador.jpg"
+        "Link imagem": "ralador.jpg",
+        "Desbloqueado": false
     },
     {
         "Presente": "peneira,",
         "Valor": 25,
-        "Link imagem": "peneira.jpg"
+        "Link imagem": "peneira.jpg",
+        "Desbloqueado": false
     },
     {
         "Presente": "jarra,",
         "Valor": 35,
-        "Link imagem": "jarra.webp"
+        "Link imagem": "jarra.webp",
+        "Desbloqueado": false
     },
     {
         "Presente": "kit pano de prato",
         "Valor": 40,
-        "Link imagem": "kit_panos_de_prato.webp"
+        "Link imagem": "kit_panos_de_prato.webp",
+        "Desbloqueado": false
     },
     {
         "Presente": "kit utensílios de cozinha silicone",
         "Valor": 80,
-        "Link imagem": "kit_utensilhos_cozinha.jpg"
+        "Link imagem": "kit_utensilhos_cozinha.jpg",
+        "Desbloqueado": false
     },
     {
         "Presente": "Travesseiro antialérgico (4)",
         "Valor": 200,
-        "Link imagem": "travesseiros.png"
+        "Link imagem": "travesseiros.png",
+        "Desbloqueado": false
     },
     {
         "Presente": "Sofá",
         "Valor": 1200,
-        "Link imagem": "sofa.jpg"
+        "Link imagem": "sofa.jpg",
+        "Desbloqueado": false
     },
     {
         "Presente": "Televisão",
         "Valor": 2200,
-        "Link imagem": "tv.jpg"
+        "Link imagem": "tv.jpg",
+        "Desbloqueado": false
     },
     {
         "Presente": "Rack Sala",
         "Valor": 450,
-        "Link imagem": "rack_sala.jpg"
+        "Link imagem": "rack_sala.jpg",
+        "Desbloqueado": false
     },
     {
         "Presente": "Jogo de Cama Casal",
         "Valor": 200,
-        "Link imagem": "jogo_de_cama.jpg"
+        "Link imagem": "jogo_de_cama.jpg",
+        "Desbloqueado": false
     },
     {
         "Presente": "Jogo de Toalhas",
         "Valor": 100,
-        "Link imagem": "jogo_de_toalhas.jpg"
+        "Link imagem": "jogo_de_toalhas.jpg",
+        "Desbloqueado": false
     },
     {
         "Presente": "Ferro de passar roupa",
         "Valor": 140,
-        "Link imagem": "ferro_passar_roupa.jpg"
+        "Link imagem": "ferro_passar_roupa.jpg",
+        "Desbloqueado": false
     },
     {
         "Presente": "Utensílios de banheiro (Kit Lavabo)",
         "Valor": 130,
-        "Link imagem": "kit_lavabo.jpg"
+        "Link imagem": "kit_lavabo.jpg",
+        "Desbloqueado": false
     },
     {
         "Presente": "Tapete sala antialérgico",
         "Valor": 130,
-        "Link imagem": "tapete_sala.jpg"
+        "Link imagem": "tapete_sala.jpg",
+        "Desbloqueado": false
     },
     {
         "Presente": "Kit Tapete banheiro",
         "Valor": 80,
-        "Link imagem": "tapete_banheiro.png"
+        "Link imagem": "tapete_banheiro.png",
+        "Desbloqueado": false
     },
     {
         "Presente": "kit tapete cozinha",
         "Valor": 100,
-        "Link imagem": "tapete_cozinha.jpg"
+        "Link imagem": "tapete_cozinha.jpg",
+        "Desbloqueado": false
     },
     {
         "Presente": "Permissão pra perguntar sobre filhos 1 vez",
         "Valor": 100,
-        "Link imagem": "filhos.jpg"
+        "Link imagem": "filhos.jpg",
+        "Desbloqueado": false
     },
     {
         "Presente": "Permissão pra perguntar sobre filhos 5 vezes",
         "Valor": 1000,
-        "Link imagem": "filhos.jpg"
+        "Link imagem": "filhos.jpg",
+        "Desbloqueado": false
     },
     {
         "Presente": "Permissão pra perguntar sobre filhos quantas vezes quiser",
         "Valor": 10000,
-        "Link imagem": "filhos.jpg"
+        "Link imagem": "filhos.jpg",
+        "Desbloqueado": false
     },
     {
         "Presente": "Permissão pra perguntar sobre formatura",
         "Valor": 20000,
-        "Link imagem": "formatura.webp"
+        "Link imagem": "formatura.webp",
+        "Desbloqueado": false
     }
 ]

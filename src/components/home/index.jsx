@@ -1,5 +1,5 @@
 import './style.css'
-import capa from "../../assets/capa.webp"
+import capa from "../../assets/freecompress-capa.webp"
 
 const Home = () => {
     return (
