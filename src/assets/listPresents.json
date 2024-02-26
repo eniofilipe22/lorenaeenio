@@ -1,4 +1,34 @@
-[
+[{
+    "Presente": "Varal de roupa de chão",
+    "Valor": 110,
+    "Link imagem": "varal.jpeg",
+    "Desbloqueado": false
+},{
+    "Presente": "Lixeira",
+    "Valor": 50,
+    "Link imagem": "lixeira.jpeg",
+    "Desbloqueado": false
+},{
+    "Presente": "Forma de bolo",
+    "Valor": 50,
+    "Link imagem": "forma.jpeg",
+    "Desbloqueado": false
+},{
+    "Presente": "Pipoqueira",
+    "Valor": 190,
+    "Link imagem": "pipoqueira.jpg",
+    "Desbloqueado": false
+},{
+    "Presente": "Travessa de vidro com tampa",
+    "Valor": 250,
+    "Link imagem": "marinex.jpg",
+    "Desbloqueado": false
+},{
+    "Presente": "Guarda roupas",
+    "Valor": 1000,
+    "Link imagem": "guardaroupa.jpg",
+    "Desbloqueado": false
+},
     {
         "Presente": "Geladeira",
         "Valor": 3500,
