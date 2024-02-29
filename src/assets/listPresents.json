@@ -80,7 +80,7 @@
         "Presente": "Jogo de Panelas",
         "Valor": 350,
         "Link imagem": "jogo_de_panela.jpg",
-        "Desbloqueado": false
+        "Desbloqueado": true
     },
     {
         "Presente": "Panela de Pressão",
@@ -170,7 +170,7 @@
         "Presente": "kit pano de prato",
         "Valor": 40,
         "Link imagem": "kit_panos_de_prato.webp",
-        "Desbloqueado": false
+        "Desbloqueado": true
     },
     {
         "Presente": "kit utensílios de cozinha silicone",
