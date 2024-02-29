@@ -7,7 +7,7 @@
     "Presente": "Lixeira",
     "Valor": 50,
     "Link imagem": "lixeira.jpeg",
-    "Desbloqueado": false
+    "Desbloqueado": true
 },{
     "Presente": "Forma de bolo",
     "Valor": 50,
@@ -98,7 +98,7 @@
         "Presente": "Processador/Liquidificador",
         "Valor": 350,
         "Link imagem": "processador.jpg",
-        "Desbloqueado": false
+        "Desbloqueado": true
     },
     {
         "Presente": "Mesa",
