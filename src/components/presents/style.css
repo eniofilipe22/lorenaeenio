@@ -9,7 +9,7 @@
 
 .presents-page .title,
 .presents-page .text {
-    margin: 30px 10px;
+    margin: 30px 20%;
 }
 
 .presents-content {
@@ -42,4 +42,9 @@
     .presents-content {
         margin: 10px;
     }
+
+    .presents-page .title,
+.presents-page .text {
+    margin: 30px 10px;
+}
 }

@@ -29,14 +29,14 @@ const Menu = ({
 
     return (
         <nav className='header'>
-            <input type="checkbox" id="menu-hamburguer" />
+            <input type="checkbox" id="menu-hamburguer"/>
             <label htmlFor="menu-hamburguer">
                 <div className="menu">
                     <span className="hamburguer"></span>
                 </div>
             </label>
             <ul className='itens'>
-                <li><Link to={"/#inicio"}>Início</Link> </li>
+                <li><Link to={"/#inicio"}>INÍCIO</Link> </li>
                 <li onClick={onClickOCasal}><Link to={"/#ocasal"}>O CASAL</Link></li>
                 <li onClick={onClickOCasal} ><Link to="/#cerimonia" preventScrollReset={true}>CERIMÔNIA</Link></li>
                 <li onClick={onClickPresents}><Link to={"/presentes#presentes"}>LISTA DE PRESENTES</Link></li>

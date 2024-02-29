@@ -28,20 +28,21 @@ const Cart = ({
 
     const onClickEntregar = () => {
 
-        let stringToSend = `Olá, estou te mandando essa mensagem para informar que vou te presentear esses presentes: \n`;
-
+        let stringToSend = `Olá, estou te mandando essa mensagem para informar que vou te entregar pessoalmente `;
         stringToSend = stringToSend + generateListPresentsString(cart);
 
         stringToSend = encodeURI(stringToSend);
         window.open(`https://wa.me//5538988077327?text=${stringToSend}`, "_blank", "noreferrer");
+        alert("Sua contribuição significa muito para nós. Sua presença e apoio nos enchem de alegria e gratidão. Muito obrigado por fazer parte deste momento tão significativo em nossas vidas.");
     }
 
     const onClickPix = () => {
-        let stringToSend = `Olá, estou te mandando essa mensagem para informar que vou te presentear com um pix no valor de ${convertToReais(total)} relativo à esses presentes: \n`;
+        let stringToSend = `Olá, estou te mandando essa mensagem para informar que vou te presentear com um pix no valor de ${convertToReais(total)} referente à: \n`;
         stringToSend = stringToSend + generateListPresentsString(cart);
 
         stringToSend = encodeURI(stringToSend);
         window.open(`https://wa.me//5538988077327?text=${stringToSend}`, "_blank", "noreferrer");
+        alert("Sua contribuição significa muito para nós. Sua presença e apoio nos enchem de alegria e gratidão. Muito obrigado por fazer parte deste momento tão significativo em nossas vidas.");
     }
 
     return (<div className="cart-wrapper" onClick={onExit}>
@@ -53,15 +54,12 @@ const Cart = ({
                 <Title title={"Cesta de presentes"} />
                 <Button onClick={onExit} children={"X"}/>
             </div>
-            
+            { total <= 0 ? (<>`${onExit(false)} ${alert("Sua cesta está vazia")}`</>) : 
+            (<>
             <p>
-            Bem-vindos à nossa cesta de presentes! Este é o lugar onde amigos e familiares podem contribuir para tornar nossos primeiros dias de casados ainda mais especiais. Embora valorizemos imensamente a presença de vocês em nosso dia especial, caso desejem nos presentear de alguma forma, ficaremos imensamente gratos por suas contribuições. Agradecemos desde já o carinho e apoio de cada um de vocês, que fazem parte deste capítulo significativo de nossas vidas.
+            Bem-vindos à nossa cesta de presentes! Para continuar você tem a opção de entregar pessoalmente ou enviar um pix no valor do presente, conforme instruções abaixo.
+            
             </p>
-            { total <= 0 ? (
-            <>
-                Olá! Nossa cesta de presentes está esperando por suas generosas contribuições. No momento, ela está vazia, mas com sua gentileza e carinho, podemos enchê-la de amor e boas lembranças. Agradecemos desde já por fazerem parte deste momento tão especial em nossas vidas.
-            </>
-            ) : (<>
             <div className="list-cesta">
                 {
                     Object.values(cart).map((value) => (
@@ -91,7 +89,7 @@ const Cart = ({
                 <Button onClick={onClickPix} children={"Vou mandar um pix"} />
             </div>
             <p className="agradecimento">
-            Obrigado por tornar nosso dia ainda mais especial! Sua generosa contribuição significa muito para nós. Com seu carinho, estamos mais próximos de construir memórias que durarão para sempre. Sua presença e apoio nos enchem de alegria e gratidão. Muito obrigado por fazer parte deste momento tão significativo em nossas vidas
+            Sua contribuição significa muito para nós. Sua presença e apoio nos enchem de alegria e gratidão. Muito obrigado por fazer parte deste momento tão significativo em nossas vidas.
             </p>
             </>
             )}

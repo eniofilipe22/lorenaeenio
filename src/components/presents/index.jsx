@@ -17,7 +17,7 @@ const Presents = () => {
             {openCesta && <Cart onExit={() => setOpenCesta(false)}/>}
             <Button className="cart-button" onClick={()=> setOpenCesta(true)} children={ <img src={Carrinho} alt="Carrinho" /> }></Button>
             <Title title={"Lista de presentes"} />
-            <Text text={"Dê uma olhada na nossa lista de presentes! Cada escolha é um gesto de carinho que aquece nossos corações. Agradecemos por fazerem parte deste momento especial conosco. Sintam-se à vontade para explorar e compartilhar conosco este capítulo de nossas vidas. Obrigado por estarem aqui, sua presença significa muito para nós!"} />
+            <Text text={"Dê uma olhada na nossa lista de presentes! Cada escolha é um gesto de carinho. Fique à vontade para escolher o presente e colocar no carrinho. Agradecemos por fazer parte deste momento especial."} />
             <div className="presents-content">
                 {
                     listPresents.map((present, index) => (

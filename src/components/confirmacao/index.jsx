@@ -53,11 +53,15 @@ const Confirmacao = () => {
             </div>
             <div className="line-form">
                 <span className="label-form">Você irá ao evento?</span>
-                <div className="input-confirmacao radio" >
-                    <input id="sim" type="radio" name="boolean" onInput={(e) => changeFormData("confirm", "Sim")} />
-                    <label htmlFor="sim">Sim</label>
+                <div className="input-confirmacao radio">
+                <div>
+                    <input id="sim" type="radio" name="boolean" onInput={(e) => changeFormData("confirm", "Sim")}/>
+                    <label className="label-form" htmlFor="sim">Sim</label>
+                </div>
+                <div>
                     <input id="nao" type="radio" name="boolean" onInput={(e) => changeFormData("confirm", "Nao")}></input>
-                    <label htmlFor="nao">Não</label>
+                    <label className="label-form" htmlFor="nao">Não</label>
+                </div>
                 </div>
             </div>
             <div className="line-form">
