@@ -89,12 +89,6 @@
         "Desbloqueado": false
     },
     {
-        "Presente": "Aparelho de Jantar",
-        "Valor": "?",
-        "Link imagem": "?",
-        "Desbloqueado": false
-    },
-    {
         "Presente": "Organizador de Talheres",
         "Valor": 80,
         "Link imagem": "organizador_talheres.jpg",
@@ -152,18 +146,6 @@
         "Presente": "Jogo de Potes de Mantimentos (Arroz, Feijão, Farinha, Açúcar)",
         "Valor": 70,
         "Link imagem": "jogo_potes_mantimentos.jpg",
-        "Desbloqueado": false
-    },
-    {
-        "Presente": "Potes/Vasilhas plásticas diversas",
-        "Valor": "?",
-        "Link imagem": "",
-        "Desbloqueado": false
-    },
-    {
-        "Presente": "Jogo de Sobremesa",
-        "Valor": "?",
-        "Link imagem": "",
         "Desbloqueado": false
     },
     {
