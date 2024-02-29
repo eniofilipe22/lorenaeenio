@@ -243,6 +243,34 @@
         "Valor": 100,
         "Link imagem": "tapete_cozinha.jpg",
         "Desbloqueado": false
+    },{
+        "Presente": "Vale pix 100 reais",
+        "Valor": 100,
+        "Link imagem": "pix.jpeg",
+        "Desbloqueado": false
+    },{
+        "Presente": "Vale pix 200 reais",
+        "Valor": 200,
+        "Link imagem": "pix.jpeg",
+        "Desbloqueado": false
+    },
+    {
+        "Presente": "Vale pix 300 reais",
+        "Valor": 300,
+        "Link imagem": "pix.jpeg",
+        "Desbloqueado": false
+    },
+    {
+        "Presente": "Vale pix 400 reais",
+        "Valor": 400,
+        "Link imagem": "pix.jpeg",
+        "Desbloqueado": false
+    },
+    {
+        "Presente": "Vale pix 500 reais",
+        "Valor": 500,
+        "Link imagem": "pix.jpeg",
+        "Desbloqueado": false
     },
     {
         "Presente": "Permissão pra perguntar sobre filhos 1 vez",
@@ -262,6 +290,7 @@
         "Link imagem": "filhos.jpg",
         "Desbloqueado": false
     },
+
     {
         "Presente": "Permissão pra perguntar sobre formatura",
         "Valor": 20000,
