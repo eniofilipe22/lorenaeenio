@@ -6,6 +6,7 @@ import Button from "../common/button";
 const Comentarios = () => {
 
     const [comentarios, setComentarios] = useState([]);
+    const [enviando, setEviando] = useState(false);
 
     const [nome, setNome] = useState(null);
     const [text, setText] = useState(null);
@@ -32,6 +33,7 @@ const Comentarios = () => {
 
     const enviaComentario = async () => {
         if (nome !== null && text !== null) {
+            setEviando(true);
             fetch('https://casamento-ca9b.restdb.io/rest/comentarios', {
                 headers: {
                     "x-apikey": "65d38951a1d768826c031098",
@@ -45,6 +47,8 @@ const Comentarios = () => {
             })
                 .then(async data => {
                     await getComentarios();
+                }).finally(() => {
+                    setEviando(false);
                 })
         }
     }
@@ -56,7 +60,7 @@ const Comentarios = () => {
             <input className="input-comentario" id="nome" value={nome} onInput={(e) => setNome(e.target.value)} required/>
             <label className="label-comentario" htmlFor="text">Recado</label>
             <textarea className="input-comentario" id="text" value={text} onInput={(e) => setText(e.target.value)} />
-            <Button onClick={enviaComentario} children="Enviar recado"/>
+            <Button disabled={enviando} onClick={enviaComentario} children="Enviar recado"/>
         </div>
         {
         comentarios.map((comentario) => (
