@@ -47,6 +47,7 @@ const Comentarios = () => {
                 .then(async data => {
                     await getComentarios();
                 }).finally(() => {
+                    alert("Comentário enviado! :D");
                     setEviando(false);
                     setNome("");
                     setText("");
