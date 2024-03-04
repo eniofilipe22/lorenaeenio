@@ -20,7 +20,6 @@ const Comentarios = () => {
         })
             .then(async data => {
                 const datajson = await data.json();
-                console.log(datajson)
                 setComentarios(datajson);
             })
             .catch((e) => console.log(e))
@@ -32,7 +31,7 @@ const Comentarios = () => {
     }, [])
 
     const enviaComentario = async () => {
-        if (nome !== null && text !== null) {
+        if (nome !== null && nome !== "" && text !== null && text !== "") {
             setEviando(true);
             fetch('https://casamento-ca9b.restdb.io/rest/comentarios', {
                 headers: {
@@ -49,6 +48,8 @@ const Comentarios = () => {
                     await getComentarios();
                 }).finally(() => {
                     setEviando(false);
+                    setNome("");
+                    setText("");
                 })
         }
     }
