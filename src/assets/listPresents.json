@@ -24,8 +24,8 @@
     "Link imagem": "marinex.jpg",
     "Desbloqueado": false
 },{
-    "Presente": "Guarda roupas",
-    "Valor": 1000,
+    "Presente": "Guarda roupa de casal - Portas de correr",
+    "Valor": 1600,
     "Link imagem": "guardaroupa.jpg",
     "Desbloqueado": false
 },
@@ -65,6 +65,12 @@
         "Desbloqueado": true
     },
     {
+        "Presente": "Armário de cozinha",
+        "Valor": 300,
+        "Link imagem": "armario_cozinha.jpg",
+        "Desbloqueado": false
+    },
+    {
         "Presente": "Jogo de facas",
         "Valor": 90,
         "Link imagem": "jogodefacas.jpg",
@@ -83,8 +89,14 @@
         "Desbloqueado": true
     },
     {
-        "Presente": "Panela de Pressão",
-        "Valor": 200,
+        "Presente": "Panela de Pressão 3l",
+        "Valor": 180,
+        "Link imagem": "panela_de_pressao.jpg",
+        "Desbloqueado": false
+    },
+    {
+        "Presente": "Panela de Pressão 6l",
+        "Valor": 260,
         "Link imagem": "panela_de_pressao.jpg",
         "Desbloqueado": false
     },
@@ -95,13 +107,13 @@
         "Desbloqueado": false
     },
     {
-        "Presente": "Processador/Liquidificador",
+        "Presente": "Processador com Liquidificador",
         "Valor": 350,
         "Link imagem": "processador.jpg",
         "Desbloqueado": true
     },
     {
-        "Presente": "Mesa",
+        "Presente": "Mesa com cadeiras",
         "Valor": 1000,
         "Link imagem": "mesa_de_jantar.jpg",
         "Desbloqueado": false
@@ -149,31 +161,31 @@
         "Desbloqueado": false
     },
     {
-        "Presente": "ralador,",
+        "Presente": "Ralador",
         "Valor": 40,
         "Link imagem": "ralador.jpg",
         "Desbloqueado": false
     },
     {
-        "Presente": "peneira,",
+        "Presente": "Peneira",
         "Valor": 25,
         "Link imagem": "peneira.jpg",
         "Desbloqueado": false
     },
     {
-        "Presente": "jarra,",
+        "Presente": "Jarra",
         "Valor": 35,
         "Link imagem": "jarra.webp",
         "Desbloqueado": false
     },
     {
-        "Presente": "kit pano de prato",
+        "Presente": "Kit pano de prato",
         "Valor": 40,
         "Link imagem": "kit_panos_de_prato.webp",
         "Desbloqueado": true
     },
     {
-        "Presente": "kit utensílios de cozinha silicone",
+        "Presente": "Kit utensílios de cozinha silicone",
         "Valor": 80,
         "Link imagem": "kit_utensilhos_cozinha.jpg",
         "Desbloqueado": false
@@ -239,11 +251,24 @@
         "Desbloqueado": false
     },
     {
-        "Presente": "kit tapete cozinha",
+        "Presente": "Kit tapete cozinha",
         "Valor": 100,
         "Link imagem": "tapete_cozinha.jpg",
         "Desbloqueado": false
-    },{
+    },
+    {
+        "Presente": "Sapateira",
+        "Valor": 70,
+        "Link imagem": "sapateira.jpg",
+        "Desbloqueado": false
+    },
+    {
+        "Presente": "Robô Aspirador Passa Pano Xiaomi Mi Robot Vacuum",
+        "Valor": 1300,
+        "Link imagem": "robo.jpg",
+        "Desbloqueado": false
+    },
+    {
         "Presente": "Vale pix 100 reais",
         "Valor": 100,
         "Link imagem": "pix.jpeg",
