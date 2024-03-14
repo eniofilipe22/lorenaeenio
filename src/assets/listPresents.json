@@ -33,7 +33,7 @@
         "Presente": "Geladeira",
         "Valor": 3500,
         "Link imagem": "geladeira.jpg",
-        "Desbloqueado": false
+        "Desbloqueado": true
     },
     {
         "Presente": "Sanduicheira (Preta ou Prata/Cinza)",
@@ -230,7 +230,7 @@
         "Presente": "Ferro de passar roupa",
         "Valor": 140,
         "Link imagem": "ferro_passar_roupa.jpg",
-        "Desbloqueado": false
+        "Desbloqueado": true
     },
     {
         "Presente": "Utensílios de banheiro (Kit Lavabo)",
