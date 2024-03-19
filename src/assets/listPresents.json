@@ -68,7 +68,7 @@
         "Presente": "Armário de cozinha",
         "Valor": 300,
         "Link imagem": "armario_cozinha.jpg",
-        "Desbloqueado": false
+        "Desbloqueado": true
     },
     {
         "Presente": "Jogo de facas",
@@ -212,7 +212,7 @@
         "Presente": "Rack Sala",
         "Valor": 450,
         "Link imagem": "rack_sala.jpg",
-        "Desbloqueado": false
+        "Desbloqueado": true
     },
     {
         "Presente": "Jogo de Cama Casal",
